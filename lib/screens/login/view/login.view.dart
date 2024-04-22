@@ -19,7 +19,7 @@ class LoginView extends GetView<LoginController> {
         return Scaffold(
           body: SingleChildScrollView(
             child: Container(
-              height: Get.height - 24,
+              height: Get.height - 24 - 250,
               padding:
                   const EdgeInsets.symmetric(horizontal: kDefaultPadding * 1.5),
               child: Column(
